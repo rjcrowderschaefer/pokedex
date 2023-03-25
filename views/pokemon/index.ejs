@@ -1,0 +1,10 @@
+<%- include('../partials/header.ejs', {name: "All Pokemon"}) %>
+    <h1>Pokedex</h1>
+    <% for(let i = 0; i < pokemon.length; i++) { %>
+        <img src=<%= pokemon[i].img %> alt="Image of <%= pokemon[i].name %>">
+        <a href="/pokemon/<%= i %>">
+            <h2><%= pokemon[i].name %></h2>
+        </a>
+        <hr>
+        <% } %>
+<%- include('../partials/footer.ejs') %>

@@ -1,0 +1,22 @@
+<%- include('../partials/header.ejs', {name: "All Pokemon"}) %>
+    <h1>Pokedex</h1>
+    <% for(let i = 0; i < pokemon.length; i++) { %>
+        <img src=<%= pokemon[i].img %> alt="Image of <%= pokemon[i].name %>">
+        <h2><%= pokemon[i].name %></h2>
+        <h3><ul>
+            <li>Height: <%= pokemon[i].misc.height %></li>
+            <li>Weight: <%= pokemon[i].misc.weight %></li>
+            <li>Abilities (Normal): <%= pokemon[i].misc.abilities.normal %></li>
+            <li>Abilities (Hidden): <%= pokemon[i].misc.abilities.hidden %></li>
+            <li>Stats Overview:<ul>
+                <li>HP: <%= pokemon[i].stats.hp %></li>
+                <li>Attack: <%= pokemon[i].stats.attack %></li>
+                <li>Defense: <%= pokemon[i].stats.defense %></li>
+                <li>Sp. Atk: <%= pokemon[i].stats.spattack %></li>
+                <li>Sp. Def: <%= pokemon[i].stats.spdefense %></li>
+                <li>Speed: <%= pokemon[i].stats.speed %></li>
+            </ul></li>
+        </ul></h3>
+        <hr>
+        <% } %>
+<%- include('../partials/footer.ejs') %>
