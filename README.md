@@ -108,21 +108,21 @@ The order of your commits this time does not matter, but refer back to the MVP t
 ```
 "Server is working and displays a plain index page"
 
-"Displays a bunch of Pokémon images on the index".
+"Displays a bunch of Pokémon images on the index"
 
-"Has separate show pages for each Pokémon".
+"Has separate show pages for each Pokémon"
 
-"Has the ability to add a new Pokémon".
+"Has the ability to add a new Pokémon"
 
-"Has the ability to edit existing Pokémon".
+"Has the ability to edit existing Pokémon"
 
-"Has the ability to delete Pokémon".
+"Has the ability to delete Pokémon"
 
-"The app uses RESTful routing, all seven RESTful routes".
+"The app uses RESTful routing, all seven RESTful routes"
 
-"View templates are complete".
+"View templates are complete"
 
-"Static assets included (CSS) and styled app".
+"Static assets included (CSS) and styled app"
 ```
 
 ## **Deliverables**
