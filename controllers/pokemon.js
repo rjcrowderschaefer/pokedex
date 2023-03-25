@@ -3,15 +3,16 @@ const router = express.Router();
 let pokemon = require('../models/pokemon');
 
 router.get('/', (req, res) => {
-    console.log(pokemon);
     res.render('pokemon/index.ejs', {pokemon})
 })
 
 // router.get('pokemon/new', (req, res) => {
 // })
 
-// router.get('pokemon/:id', (req, res) => {    
-// })
+router.get('/:id', (req, res) => {    
+    const individualPokemon = pokemon[req.params.id];
+    res.render('pokemon/show.ejs', {individualPokemon})
+})
 
 // router.post('/pokemon', (req, res) => {
 // })
