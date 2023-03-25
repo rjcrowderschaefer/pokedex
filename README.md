@@ -35,9 +35,7 @@ Your app should:
 
 ### **Setting up**
 
-**[Download](https://seir-flex-carina.netlify.app/downloads/backend_fundamentals/pokedex.zip)** the `pokedex`folder
-
-**[Download](https://seir-flex-carina.netlify.app/downloads/backend_fundamentals/pokedex.zip)**
+Fork and clone this repository
 
 1. Ideally, your app should follow the MVC format of models, views, and controllers (these are your routes for now).
 2. However, note you don't actually need a controllers folder for now since all your routes will be in your `server.js`file
