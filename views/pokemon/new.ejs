@@ -1,0 +1,44 @@
+<%- include('../partials/header.ejs') %>
+    
+<h1>Use the form below to add a new Pokemon to the list</h1>
+<form method="POST" action="/pokemon">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="misc.height">Height:</label>
+    <input type="text" name="misc.height" id="misc.height">
+    <br>
+    <label for="misc.weight">Weight:</label>
+    <input type="text" name="misc.weight" id="misc.weight">
+    <br>
+    <label for="misc.abilities.normal">Abilities (normal):</label>
+    <input type="text" name="misc.abilities.normal" id="abilities-normal">
+    <br>
+    <label for="misc.abilities.hidden">Abilities (hidden):</label>
+    <input type="text" name="misc.abilities.hidden" id="misc.abilities.hidden">
+    <br>
+    <label for="stats.hp">Stats - HP:</label>
+    <input type="text" name="stats.hp" id="stats.hp">
+    <br>
+    <label for="stats.attack">Stats - Attack:</label>
+    <input type="text" name="stats.attack" id="stats.attack">
+    <br>
+    <label for="stats.defense">Stats - Defense:</label>
+    <input type="text" name="stats.defense" id="stats.defense">
+    <br>
+    <label for="stats.spattack">Stats - Sp. Atk:</label>
+    <input type="text" name="stats.spattack" id="stats.spattack">
+    <br>
+    <label for="stats.spdefense">Stats - Sp. Def:</label>
+    <input type="text" name="stats.spdefense" id="stats.spdefense">
+    <br>
+    <label for="stats.speed">Stats - Speed:</label>
+    <input type="text" name="stats.speed" id="stats.speed">
+    <br>
+    <label for="img">Image URL:</label>
+    <input type="text" name="img" id="img">
+    <br>
+    <input type="submit" value="Add new pokemon">
+</form>
+
+<%- include('../partials/footer.ejs') %>
