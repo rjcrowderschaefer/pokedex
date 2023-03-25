@@ -59,54 +59,11 @@ Your app should use RESTful routes:
 - Destroy
     - DELETE `/pokemon/:id`
 
-### **Need a jumpstart?**
-
-- **Click for some example starter code**
-    
-    ```
-    "Server is working and displays a plain index page"
-
-
-
-"Displays a bunch of Pokémon images on the index".
-
-
-
-"Has separate show pages for each Pokémon".
-
-
-
-"Has the ability to add a new Pokémon".
-
-
-
-"Has the ability to edit existing Pokémon".
-
-
-
-"Has the ability to delete Pokémon".
-
-
-
-"The app uses RESTful routing, all seven RESTful routes".
-
-
-
-"View templates are complete".
-
-
-
-"Static assets included (CSS) and styled app".
-
-
-    ```
-    
-
 ## **Data**
 
 ### **Notes on the Pokémon data and what to display**
 
-The `pokemon.js`file is massive and there is a ton of data to parse through. You need not display all of it on your pages. On your index page, you can just render the images.
+The `pokemon.js` file is massive and there is a ton of data to parse through. You need not display all of it on your pages. On your index page, you can just render the images.
 
 Here are suggestions for what to display on your Pokémon's show page:
 
@@ -148,7 +105,25 @@ These are screenshots from what other students have done to their Pokedex ***(C
 
 The order of your commits this time does not matter, but refer back to the MVP to make sure that you're meeting all of the requirements. Make your commits **as you complete the work**, not all at once in the end! Some sample commits can be found below.
 
-- **Click for sample commit messages**:
+```
+"Server is working and displays a plain index page"
+
+"Displays a bunch of Pokémon images on the index".
+
+"Has separate show pages for each Pokémon".
+
+"Has the ability to add a new Pokémon".
+
+"Has the ability to edit existing Pokémon".
+
+"Has the ability to delete Pokémon".
+
+"The app uses RESTful routing, all seven RESTful routes".
+
+"View templates are complete".
+
+"Static assets included (CSS) and styled app".
+```
 
 ## **Deliverables**
 
