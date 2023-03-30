@@ -1,0 +1,44 @@
+<%- include('../partials/header.ejs') %>
+    
+<h1>Use the form below to edit a Pokemon on the list</h1>
+<form method="POST" action="/pokemon/<%= idx %>?_method_PUT">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="height">Height:</label>
+    <input type="text" name="height" id="misc.height">
+    <br>
+    <label for="weight">Weight:</label>
+    <input type="text" name="weight" id="misc.weight">
+    <br>
+    <label for="abilities-normal">Abilities (normal):</label>
+    <input type="text" name="normal" id="abilities-normal">
+    <br>
+    <label for="abilities-hidden">Abilities (hidden):</label>
+    <input type="text" name="hidden" id="misc.abilities.hidden">
+    <br>
+    <label for="stats-hp">Stats - HP:</label>
+    <input type="text" name="hp" id="stats.hp">
+    <br>
+    <label for="stats-attack">Stats - Attack:</label>
+    <input type="text" name="attack" id="stats.attack">
+    <br>
+    <label for="stats-defense">Stats - Defense:</label>
+    <input type="text" name="defense" id="stats.defense">
+    <br>
+    <label for="stats-spattack">Stats - Sp. Atk:</label>
+    <input type="text" name="spattack" id="stats.spattack">
+    <br>
+    <label for="stats-spdefense">Stats - Sp. Def:</label>
+    <input type="text" name="spdefense" id="stats.spdefense">
+    <br>
+    <label for="stats-speed">Stats - Speed:</label>
+    <input type="text" name="speed" id="stats.speed">
+    <br>
+    <label for="img">Image URL:</label>
+    <input type="text" name="img" id="img">
+    <br>
+    <input type="submit" value="Update pokemon">
+</form>
+
+<%- include('../partials/footer.ejs') %>

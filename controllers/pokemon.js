@@ -46,6 +46,17 @@ router.post('', (req, res) => {
     })
 })
 
+router.get(':/id/edit', (req, res) => {
+    const pokemonToBeEdited = pokemon[req.params.id];
+    res.render('pokemon/edit.ejs', {pokemonToBeEdited, idx: req.params.id});
+})
+
+router.put('/:id/edit', (req, res) => {
+    let updatedPokemon = req.body;
+    pokemon[req.params.id] = updatedPokemon;
+    res.redirect(`/pokemon/${req.params.id}`);
+})
+
 // router.get('/pokemon/:id/edit', (req, res) => {
 // })
 
